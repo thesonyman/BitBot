@@ -1,3 +1,3 @@
 # BitBot
 
-## Bitcoin trading bot
+<a>Bitcoin trading bot</a>
