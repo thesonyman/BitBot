@@ -1,4 +1,4 @@
-import urllib.request
+import urllib.request, json
 
 base_url = "https://blockchain.info/fr/charts/"
 chart = "market-price"
@@ -8,4 +8,4 @@ url = base_url+chart+"?format=json&timespan="+timespan
 
 response = urllib.request.urlopen(url)
 
-print(response.read())
+print(response.read().decode("utf-8"))
