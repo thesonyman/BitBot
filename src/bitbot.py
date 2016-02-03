@@ -1,4 +1,4 @@
-import urllib.request, json
+import urllib.request, json, tkinter
 
 base_url = "https://blockchain.info/fr/charts/"
 chart = "market-price"
