@@ -1,3 +1,3 @@
 # BitBot
 
-<a>Bitcoin trading bot</a>
+<a href="http://google.com">Bitcoin trading bot</a>
