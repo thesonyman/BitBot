@@ -1,3 +1,6 @@
+# Module principal du bot, routing only
+
+
 import urllib.request, json, tkinter
 
 base_url = "https://blockchain.info/fr/charts/"
