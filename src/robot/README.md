@@ -3,9 +3,6 @@
 ## Controller
 The controller will call and command other components describe. Doesn't take 
 
-## Catcher
-The catcher will be the main interface between the different APIs and the robot
-
 ## Strategies
 Strategies types possibly applied by the bot while taking a decision
 
