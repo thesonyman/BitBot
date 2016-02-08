@@ -1,1 +1,0 @@
-# Module d'actions : Vente, Achat etc

@@ -1,1 +1,0 @@
-# Module de description des données (modèles)

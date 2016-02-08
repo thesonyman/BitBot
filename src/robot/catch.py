@@ -1,4 +1,5 @@
-# Module de récupération des données via l'API
+# API Requesting module to get data from distant sources (but not DB)
+# Database can be access directly through the project by using Django backends
 
 import urllib.request
 import time
