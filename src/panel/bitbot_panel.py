@@ -4,6 +4,7 @@ import time
 import subprocess
 import sys
 sys.path.insert(0, '/Users/Zack/Code/BitBot/src')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "database.settings")
 
 from tkinter import *
 from api.catch import *

@@ -9,6 +9,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "database.settings")
 from database.db_core.models import *
 from .controller import *
 
+# LETS CODE THE BOT :D
 class Bitbot:
     
     def __init__(self):
@@ -16,5 +17,5 @@ class Bitbot:
 
     def fire(self):
         while int(Parameter.objects.get(name="run").value) == 1:
-            controller = Controller()
+            self.controller.run()
             time.sleep(60 / int(Parameter.objects.get(name="speed").value))
